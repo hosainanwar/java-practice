@@ -1,0 +1,15 @@
+git@github.com:eghealth-pvt-csc/csc-employee-portal-web.git
+git@github.com:eghealth-pvt-csc/csc-file-service.git
+git@github.com:eghealth-pvt-csc/csc-laboratory-service.git
+git@github.com:eghealth-pvt-csc/csc-radiology-service.git
+git@github.com:eghealth-pvt-csc/csc-billing-service.git
+git@github.com:eghealth-pvt-csc/csc-clinical-service.git
+git@github.com:eghealth-pvt-csc/csc-scm-service.git
+git@github.com:eghealth-pvt-csc/csc-rcm-service.git
+git@github.com:eghealth-pvt-csc/csc-accounting-service.git
+git@github.com:eghealth-pvt-csc/csc-opd-service.git
+git@github.com:eghealth-pvt-csc/csc-registration-service.git
+git@github.com:eghealth-pvt-csc/csc-common.git
+git@github.com:eghealth-pvt-csc/csc-discovery-service.git
+git@github.com:eghealth-pvt-csc/csc-gateway-service.git
+git@github.com:eghealth-pvt-csc/csc-employee-portal-web.git
