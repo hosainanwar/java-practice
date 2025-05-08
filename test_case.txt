@@ -1,15 +1,16 @@
-git@github.com:eghealth-pvt-csc/csc-employee-portal-web.git
-git@github.com:eghealth-pvt-csc/csc-file-service.git
-git@github.com:eghealth-pvt-csc/csc-laboratory-service.git
-git@github.com:eghealth-pvt-csc/csc-radiology-service.git
-git@github.com:eghealth-pvt-csc/csc-billing-service.git
-git@github.com:eghealth-pvt-csc/csc-clinical-service.git
-git@github.com:eghealth-pvt-csc/csc-scm-service.git
-git@github.com:eghealth-pvt-csc/csc-rcm-service.git
-git@github.com:eghealth-pvt-csc/csc-accounting-service.git
-git@github.com:eghealth-pvt-csc/csc-opd-service.git
-git@github.com:eghealth-pvt-csc/csc-registration-service.git
-git@github.com:eghealth-pvt-csc/csc-common.git
-git@github.com:eghealth-pvt-csc/csc-discovery-service.git
-git@github.com:eghealth-pvt-csc/csc-gateway-service.git
-git@github.com:eghealth-pvt-csc/csc-employee-portal-web.git
+
+alias csc_dis='cd /home/egen/eghealth/csc/csc-discovery-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_gw='cd /home/egen/eghealth/csc/csc-gateway-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_reg='cd /home/egen/eghealth/csc/csc-registration-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_aud='cd /home/egen/eghealth/csc/csc-audit-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_scm='cd /home/egen/eghealth/csc/csc-scm-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_rcm='cd /home/egen/eghealth/csc/csc-rcm-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_acc='cd /home/egen/eghealth/csc/csc-accounting-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_opd='cd /home/egen/eghealth/csc/csc-opd-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_rad='cd /home/egen/eghealth/csc/csc-radiology-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_lab='cd /home/egen/eghealth/csc/csc-laboratory-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_cli='cd /home/egen/eghealth/csc/csc-clinical-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_file='cd /home/egen/eghealth/csc/csc-file-service && git pull origin master && mvn clean package && mvn spring-boot:run -P office'
+alias csc_com='cd /home/egen/eghealth/csc/csc-common && git pull origin master && git push && mvn clean install'
+
+
