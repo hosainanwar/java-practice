@@ -66,7 +66,7 @@ public class MultiplyString {
 
   public static void main(String[] args) {
     String s = "123";
-    String t = "0";
+    String t = "456";
     System.out.println(multiply(s,t));
   }
 }
