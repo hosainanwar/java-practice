@@ -17,6 +17,6 @@ public class PascalsTriangleII {
 
 
   public static void main(String[] args) {
-    System.out.println(new PascalsTriangleII().getRow(30));
+    System.out.println(new PascalsTriangleII().getRow(5));
   }
 }
